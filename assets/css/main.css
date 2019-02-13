@@ -158,6 +158,6 @@ h1 span {
     clear: both;
 }
 
-.font-color {
-    color: white;
+.text-white {
+    color: #fff !important;
 }
