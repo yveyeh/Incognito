@@ -17,13 +17,16 @@ h1 {
     margin: 10px 0px;
 }
 
+h1 span {
+    font-size: 16px;
+}
+
 .deck {
     width: 690px;
     margin: 0 auto;
-    background: -webkit-linear-gradient(290deg, #02CCBA 0%, #AA7ECD 100%);
-    background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
+    background: -webkit-linear-gradient(290deg, #ffb88c 0%, #de6262 100%);
+    background: linear-gradient(160deg, #ffb88c 0%, #de6262 100%);
     padding: 32px;
-    border-radius: 10px;
     box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.5);
 }
 
@@ -37,7 +40,7 @@ h1 {
     font-size: 0;
     color: #ffffff;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 5px;
     vertical-align: top;
     cursor: pointer;
     -webkit-transform: rotateY(180deg);
@@ -106,7 +109,6 @@ h1 {
 }
 
 #score-panel .restart {
-    float: right;
     cursor: pointer;
 }
 
@@ -124,7 +126,6 @@ h1 {
 
 .timer-block {
     width: 125px;
-    float: right;
 }
 
 .timer-block .timer {
@@ -147,6 +148,10 @@ h1 {
 
 .pull-left {
     float: left !important;
+}
+
+.pull-right {
+    float: right !important;
 }
 
 .clear {
